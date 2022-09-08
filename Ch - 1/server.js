@@ -11,6 +11,6 @@ const port = process.env.PORT || 3000; //var created for port var
 app.listen(port, () =>
     console.log(`Listening to ${port}`))
 
-// setting the port value
+// setting the port value (on windows)
 // on cmd
 // set PORT=5000
