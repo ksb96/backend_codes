@@ -10,3 +10,16 @@ const p = new Promise((resolve,reject) =>{
 });
 //return promise
 p.then(result => console.log('Result', result)).catch(err => console.log('Error', err.message));
+
+//git username
+function getUser(id) {
+    return new Promise((resolve, reject) =>{
+        setTimeout(()=>{
+            console.log('fetching user from db');
+            resolve({id: id, gitUserName: 'kk'});
+        }, 2000);
+    });
+}
+
+//consume promises(chain method)
+getUser(1).then(user => getRepositories(user.gitUserName)).catch(err => console.log('Error', err.message));
