@@ -33,7 +33,16 @@ const courseSchemaa = new mongoose.Schema({
         required: true
     },
     author: String,
-    tags: [String],
+    tags: {
+        //custom validators - create an obj & then use the 'validate' method
+        type: Array,
+        validate:{
+            validator: function (value) {
+                return value && value.length > 0;
+            },
+            message: 'Should have atleast one tag'
+        }
+    },
     date: {
         type: Date,
         default: Date.now
@@ -60,7 +69,7 @@ async function createCourse() {
     const courses = new course({
         // name: 'xys',
         author: 'tyr',
-        tags: ['xy', 'yz'],
+        tags: [],
         isPublished: true,
         // price: 15,
         category:'xyz'
