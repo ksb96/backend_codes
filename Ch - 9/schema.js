@@ -53,7 +53,9 @@ const courseSchemaa = new mongoose.Schema({
         //build in validators - mongoose
         required: function () {
             return this.isPublished;
-        }
+        },
+        get: pvalue => Math.round(pvalue), //when reading a value of a property from db
+        set: pvalue => Math.round(pvalue) //when setting a value of a property
     },
     category: {
         type: String,
@@ -72,7 +74,8 @@ async function createCourse() {
         tags: [],
         isPublished: true,
         // price: 15,
-        category:'xyz'
+        category:'xyz',
+        price: 15.8
     });
 
     try {
@@ -82,6 +85,11 @@ async function createCourse() {
         await courses.validate();
     } catch (err) {
         console.log(err.message);
+    }
+    //validation error - see all error at once
+    catch(ex){
+        for(field in ex.errors)
+        console.log(ex.errors[field].message);
     }
 
 }
