@@ -3,6 +3,7 @@ const express = require('express');
 const router = require('router');
 const {User, validate} = require('./Ch - 11/models/user');
 const lodash = require('lodash'); //npm 
+const bcrypt = require('bcrypt'); //npm
 
 router.post('/', async(req,res)=>{
     const { error } = validate(req.body);
@@ -15,6 +16,9 @@ router.post('/', async(req,res)=>{
 
     //new user 
     user = new User(lodash.pick(req.body, ['name', 'email', 'password'])); //n no.of props can be used(user req)
+    //hash
+    const salt = await bcrypt.genSalt(10); //random string
+    user.password = await bcrypt.hash(user.password, salt);
     //old style
     // user = new User({
     //     name: req.body.name,
