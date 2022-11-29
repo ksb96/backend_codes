@@ -18,3 +18,13 @@
         eval - evaluates the user input
         print - prints the result
         loop - loop until the user presses ctrl+c
+
+5. NPM - node package manager
+    install 3rd party libraries
+    syntax - npm install <library name>
+
+6. Callback functions - is used to deal with multiple requests made to the server.
+                        The callback function allows the server to deal with the pending requests first & then call a function when its is completed.
+
+7. Modules - separate js files which can be reused throughout a nodejs application.
+            ex - core module(http, etc)
