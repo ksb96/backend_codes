@@ -2,7 +2,7 @@
 
 This repository is a collective journey of my learning Nodejs.
 
-This repository also consists of <span>basic</span> backend codes which required to create the bare bone of a backend server.
+This repository also consists of **basic** backend codes which required to create the bare bone of a backend server.
 
 **Table of Contents**
 - Ch - 1

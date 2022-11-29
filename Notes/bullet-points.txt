@@ -1,0 +1,20 @@
+1. Node.js shines in real-time web applications employing push technology over web sockets.
+
+2. Main purposes are:
+    - Web applications(real-time web apps)
+    - Network applications
+    - Distributed systems
+    - General purpose applications
+
+3. Advantage of using node :
+    - Build scalable network programs.
+    - Fast
+    - Concurrency
+    - Asynchronous
+    - Non-blocking
+
+4. REPL - read, eval, print, loop
+        read - user input
+        eval - evaluates the user input
+        print - prints the result
+        loop - loop until the user presses ctrl+c
