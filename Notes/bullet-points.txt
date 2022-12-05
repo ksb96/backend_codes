@@ -28,3 +28,5 @@
 
 7. Modules - separate js files which can be reused throughout a nodejs application.
             ex - core module(http, etc)
+
+8. Event - Ex - bell rang/ringing(event), stopping the bell(from ringing) is event handler
