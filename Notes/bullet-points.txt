@@ -30,3 +30,8 @@
             ex - core module(http, etc)
 
 8. Event - Ex - bell rang/ringing(event), stopping the bell(from ringing) is event handler
+
+9. Streams - handling stream of data
+            2 types - readable, writeable + duplex(for both r/w operation),transform(output computed based on input)
+       *Piping - a mechanism to connect an output of one stream of data to another stream of data.
+       *Chaining - is a mechanism to connect output of one stream to another & create a chain of multiple stream operations.      
