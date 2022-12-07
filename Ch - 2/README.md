@@ -3,7 +3,8 @@
 In this folder, I describe about how to create basic route in a nodejs application.
 Where basic routing like - GET, POST, PUT & DELETE are elaborated.
 
-- Basic code - 
+Also here, I have described the basic functionality of **Asynchronous & Synchronous** concept.
+
 
 **GET**
 ```
