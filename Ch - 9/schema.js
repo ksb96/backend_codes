@@ -87,10 +87,10 @@ async function createCourse() {
         console.log(err.message);
     }
     //validation error - see all error at once
-    catch(ex){
-        for(field in ex.errors)
-        console.log(ex.errors[field].message);
-    }
+    // catch(ex){
+    //     for(field in ex.errors)
+    //     console.log(ex.errors[field].message);
+    // }
 
 }
 //function call
