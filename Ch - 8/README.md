@@ -2,7 +2,7 @@
 
 - Generating dynamic 'html' pages & returning it to the client.
 - Ex :- ***of many, some few are listed down below***
-- pug (https://github.com/pugjs/pug),
+  pug (https://github.com/pugjs/pug),
 - EJS (https://github.com/mde/ejs),
 - Nunjucks (https://github.com/mozilla/nunjucks),
 - hbs (https://github.com/pillarjs/hbs)
