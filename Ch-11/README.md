@@ -7,8 +7,8 @@
 | -------- | -------------|
 | models  | user.js |
 | routes  | reg.js  |
-|         | auth.js |
-|         | hash.js |    
+| {root}  | auth.js |
+| {root}  | hash.js |    
 
 **models --> user.js** - Structured the schema & added the *third-party modules*(which are obviously required).
 

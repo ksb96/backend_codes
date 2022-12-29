@@ -1,18 +1,14 @@
 **Configuring Application(E2E)** - ***except views excluded***
 
 **File Structure**
-    config
-        |
-        |---> auth.js
-        |---> key.js
-        |---> passport.js
-    models
-        |
-        |---> user.js
-    routes
-        |
-        |---> index.js
-app.js
+| Folders  | Files(.js) |
+| -------- | -------------|
+| config  | auth.js |
+| -       | key.js  |
+| -       | passport.js |
+| models  | user.js | 
+| routes  | index.js |
+| {root}  | index.js |
 
 
 **config - auth.js** - Used a  *third-party module* - [flash](https://www.npmjs.com/package/req-flash) for creating all types of flash messages for an application(express).
