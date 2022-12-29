@@ -11,6 +11,12 @@
 auth.js
 hash.js
 
+| Folders  | Files(.js) |
+| -------- | -------------|
+| models  | user.js |
+| routes  | reg.js  |
+|         | auth.js |
+|         | hash.js |    
 
 **models --> user.js** - Structured the schema & added the *third-party modules*(which are obviously required).
 
