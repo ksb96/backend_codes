@@ -12,7 +12,7 @@ auth.js
 hash.js
 
 
-**models --> user.js** - Structured the schema & addedethe *third-party modules*(which are obviously required).
+**models --> user.js** - Structured the schema & added the *third-party modules*(which are obviously required).
 
 
 **routes --> reg.js** - Related to **basic** routing for an app & **error status code**.
