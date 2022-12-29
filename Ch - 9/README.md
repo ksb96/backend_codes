@@ -1,5 +1,5 @@
 **MongoDB - Production settings**
-- Over here I have elaborated the basic/main scenarios/settings which are required for deploying a web app in ***production*** specific scenarios.
+- Over here I have elaborated the basic scenarios/settings which are required for deploying a web app in ***production*** specific scenarios.
 
 **Files**
 
