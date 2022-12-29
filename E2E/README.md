@@ -8,7 +8,7 @@
 | -       | passport.js |
 | models  | user.js | 
 | routes  | index.js |
-| {root}  | index.js |
+| {root}  | app.js |
 
 
 **config - auth.js** - Used a  *third-party module* - [flash](https://www.npmjs.com/package/req-flash) for creating all types of flash messages for an application(express).
