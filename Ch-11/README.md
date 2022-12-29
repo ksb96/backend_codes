@@ -2,14 +2,6 @@
 - Here, I have explained about the **project structure**(mainly about models & routes) which needs to be maintained while creating an **nodejs** based application.
 
 **File Structure**
-    models
-        |
-        |----user.js
-    routes
-        |
-        |----reg.js
-auth.js
-hash.js
 
 | Folders  | Files(.js) |
 | -------- | -------------|
