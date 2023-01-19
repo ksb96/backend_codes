@@ -14,7 +14,7 @@ It also consists of the **basic** backend codes which required to create the bar
 - Ch - 7 -> *Middleware* & *Enviroment*.
 - Ch - 8 -> *Template Engine*.
 - Ch - 9 -> **Production** related scenarios/settings for deploying a web app.
-- Ch - 10 -> Demonstration about **CRUD** operations on *MongDB*.
+- Ch - 10 -> Demonstration about **CRUD** operations on *MongoDB*.
 - Ch - 11 -> Explained about **Models** & **Routes**.
 - E2E -> An *end-to-end* configured application(excluding 'views').
 - Extra -> Advance javascript topics explained. 

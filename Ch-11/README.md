@@ -1,5 +1,5 @@
-**Models** & **Routes**
-- Here, I have explained about the **project structure**(mainly about models & routes) which needs to be maintained while creating an **nodejs** based application.
+**Authentication** & **JWT Tokens**
+- Here, I have explained about **authenticating** user and **generating tokens**.
 
 **File Structure**
 
@@ -16,8 +16,13 @@
 **routes --> reg.js** - Related to **basic** routing for an app & **error status code**.
 
 
-**auth.js** - Authenticating user's **email**, **password**.
+**auth.js** - Authenticating user's **email**, **password**, **generating token**[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken).
 
+**Set JWT Token** - For Windows use - *set* in CLI.
+
+```
+Ex - set test_jwtPrivateKey=1234
+```
 
 **hash.js** - Used a *third-party npm-library* [bcrypt](https://www.npmjs.com/package/bcrypt), to hash passwords of the user/s.
 
